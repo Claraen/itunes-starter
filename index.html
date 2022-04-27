@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>iTunes</title>
-    <link href="styes.css" rel="stylesheet"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="script.js"></script>
-</head>
-<body>
 
-    <button onclick="run()">GO!</button>
+<head>
+	<meta charset="UTF-8">
+	<title>iTunes</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+	</script>
+	<script src="script.js">
+	</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+	<div id="fancy">
+    <h1>Find an Itunes Artist Top Songs</h1>
+		<input id="artistName" placeholder="Artist Name"></input> <br>
+    <input id="resultNum" placeholder="Number of Results"></input> <br>
+  	<button onclick="run()" class="btn btn-default">GO!</button>
+  </div>
 
     <table id="output" border="1"></table>
 
